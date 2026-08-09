@@ -13,7 +13,8 @@ Aplicacion de consola que realiza conversiones de unidasdes, pasando del sistema
 **Alojamiento de codigo** GitHub
 
 ## estructura del proyecto
-conversor-unidades
+```text
+conversor-unidades/
 |
 |—— .gitignore   # Archivos omitidos por el control de veriones
 |—— .vs code #Configuracion del editor personal
@@ -21,6 +22,7 @@ conversor-unidades
 |—— main.py #Script principal del proyecto
 |—— prueba.log #Un entono para realizar pruebas
 |__ readme.md #Documentacion del proyecto
+```
 
 ##Instalacion y ejecucion
 1. clonar el repositorio
