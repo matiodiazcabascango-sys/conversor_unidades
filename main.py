@@ -4,7 +4,11 @@ print("2. Kilogramos a libras")
 
 opcion = input("Seleccione una opcion (1 o 2): ")
 
-if opcion == "1":
+def menu distancia():
+    print("== Distancia ==")
+    print("0. Volver")
+    opcion = input("Seleccione una opcion:")
+
     kilometros = float(input("Ingrese kilometros: "))
     millas = kilometros * 0.621371
     print(f"{kilometros} Km equivale a {millas:.2f} millas.")
