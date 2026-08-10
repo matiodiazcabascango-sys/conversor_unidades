@@ -27,30 +27,40 @@ elif opcion == "0":
 else:
     print("Opcion invalida")
 
-elif opcion == "2":
-    kilogramos = float(input("Ingrese kilogramos: "))
-    libras = kilogramos * 2.20462
-    print(f"{kilogramos} Kl equivale a {libras:.2f} libras.")
-else:
-    print("Opcion invalida.")
-    
-    def menu_temperatura():
-    print("== Temperatura ==")
-    print("1. Celsius a Fahrenheit")
-    print("2. Celsius a Kelvin")
+
+    def menu_masa():
+    print("--- Masa ---")
+    print("1. Kilogramos a libras")
+    print("2. Kilogramos a onzas")
     print("0. Volver")
     opcion = input("Seleccione una opcion: ")
 
     if opcion == "1":
-        celsius = float(input("Ingrese grados Celsius: "))
-        fahrenheit = (celsius * 9 / 5) + 32
-        print(f"{celsius} C equivale a {fahrenheit:.2f} F.")
-
-        elif opcion == "2":
-        celsius = float(input("Ingrese grados Celsius: "))
-        kelvin = celsius + 273.15
-        print(f"{celsius} C equivale a {kelvin:.2f} K.")
+        kg = float(input("Ingrese kilogramos: "))
+        libras = kg * 2.20462
+        print(f"{kg} Kg equivale a {libras:.2f} libras.")
+    elif opcion == "2":
+        kg = float(input("Ingrese kilogramos: "))
+        onzas = kg * 35.274
+        print(f"{kg} Kg equivale a {onzas:.2f} onzas.")
     elif opcion == "0":
         return
     else:
         print("Opcion invalida.")
+
+                if opcion == "1":
+                    menu_distancia()
+                elif opcion == "2":
+                    menu_masa()
+                    elif opcion == "3:"
+                    menu_temperatura()
+                    elif opcion == "0:"
+print (Hasta pronto.)
+break
+else:
+print("opcion invalida.")
+
+if_name_ == "_main_":
+if __name__ == '__main__':
+    main()
+    
