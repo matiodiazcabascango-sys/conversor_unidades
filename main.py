@@ -22,3 +22,10 @@ else:
     print("2. Celsius a Kelvin")
     print("0. Volver")
     opcion = input("Seleccione una opcion: ")
+
+    if opcion == "1":
+        celsius = float(input("Ingrese grados Celsius: "))
+        fahrenheit = (celsius * 9 / 5) + 32
+        print(f"{celsius} C equivale a {fahrenheit:.2f} F.")
+
+        
