@@ -15,3 +15,10 @@ elif opcion == "2":
     print(f"{kilogramos} Kl equivale a {libras:.2f} libras.")
 else:
     print("Opcion invalida.")
+    
+    def menu_temperatura():
+    print("== Temperatura ==")
+    print("1. Celsius a Fahrenheit")
+    print("2. Celsius a Kelvin")
+    print("0. Volver")
+    opcion = input("Seleccione una opcion: ")
