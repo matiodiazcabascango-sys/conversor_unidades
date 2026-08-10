@@ -9,10 +9,6 @@ if opcion == "1":
     millas = kilometros * 0.621371
     print(f"{kilometros} Km equivale a {millas:.2f} millas.")
 
-elif opcion == "2":
-    kilogramos = float(input("Ingrese kilogramos: "))
-    libras = kilogramos * 2.20462
-    print(f"{kilogramos} Kl equivale a {libras:.2f} libras.")
     def menu_temperatura():
         print("--Temperatura--")
         print("1. celsius a Fahrenheit")
