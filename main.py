@@ -1,3 +1,4 @@
+# Seccion menu
 def menu_principal():
 print ("==Conversor de unidades==")
 print("1. Distancia")
@@ -21,6 +22,10 @@ elif opcion == "2":
     metros = float(input("Ingrese Metros: "))
     pies = metros * 3.28084
     print(f"{metros} m equivale a {pies:.2f} ft.")
+elif opcion == "0":
+    return
+else:
+    print("Opcion invalida")
 
 elif opcion == "2":
     kilogramos = float(input("Ingrese kilogramos: "))
