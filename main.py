@@ -13,5 +13,11 @@ elif opcion == "2":
     kilogramos = float(input("Ingrese kilogramos: "))
     libras = kilogramos * 2.20462
     print(f"{kilogramos} Kl equivale a {libras:.2f} libras.")
+    def menu_temperatura():
+        print("--Temperatura--")
+        print("1. celsius a Fahrenheit")
+        print("2. Celsius a Kelvin")
+        print("0. Volver") 
+        opcion = input("Sellecione una opcion:")
 else:
     print("Opcion invalida.")
