@@ -28,4 +28,11 @@ else:
         fahrenheit = (celsius * 9 / 5) + 32
         print(f"{celsius} C equivale a {fahrenheit:.2f} F.")
 
-        
+        elif opcion == "2":
+        celsius = float(input("Ingrese grados Celsius: "))
+        kelvin = celsius + 273.15
+        print(f"{celsius} C equivale a {kelvin:.2f} K.")
+    elif opcion == "0":
+        return
+    else:
+        print("Opcion invalida.")
